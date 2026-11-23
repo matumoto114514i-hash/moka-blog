@@ -66,4 +66,5 @@ h2 { color: #d6336c; border-bottom: 3px dotted var(--pink); padding-bottom: 4px;
   padding: 6px 20px;
   margin: 14px 0;
 }
+.hero { width: 100%; border-radius: 24px; border: 3px solid var(--pink-soft); box-shadow: 0 4px 0 var(--pink-soft); margin-bottom: 20px; }
 footer { margin-top: 48px; opacity: .7; font-size: .9em; text-align: center; }
