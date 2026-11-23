@@ -1,0 +1,12 @@
+:root { color-scheme: light dark; }
+body { font-family: system-ui, "Hiragino Sans", sans-serif; margin: 0 auto; max-width: 720px; padding: 24px 16px 64px; line-height: 1.8; }
+header { border-bottom: 2px solid #e07840; padding-bottom: 12px; margin-bottom: 24px; }
+header .name { font-size: 1.6em; font-weight: 700; }
+header .tag { opacity: .75; }
+nav a { margin-right: 16px; }
+a { color: #c85a20; }
+.card { border: 1px solid rgba(128,128,128,.35); border-radius: 10px; padding: 14px 18px; margin: 14px 0; }
+.stats { display: flex; gap: 12px; flex-wrap: wrap; }
+.stat { flex: 1 1 120px; text-align: center; border: 1px solid rgba(128,128,128,.35); border-radius: 10px; padding: 10px; }
+.stat b { display: block; font-size: 1.5em; }
+footer { margin-top: 48px; opacity: .7; font-size: .9em; }
