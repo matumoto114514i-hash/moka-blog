@@ -1,12 +1,69 @@
-:root { color-scheme: light dark; }
-body { font-family: system-ui, "Hiragino Sans", sans-serif; margin: 0 auto; max-width: 720px; padding: 24px 16px 64px; line-height: 1.8; }
-header { border-bottom: 2px solid #e07840; padding-bottom: 12px; margin-bottom: 24px; }
-header .name { font-size: 1.6em; font-weight: 700; }
-header .tag { opacity: .75; }
-nav a { margin-right: 16px; }
-a { color: #c85a20; }
-.card { border: 1px solid rgba(128,128,128,.35); border-radius: 10px; padding: 14px 18px; margin: 14px 0; }
+:root {
+  color-scheme: light;
+  --pink: #ff8fab;
+  --pink-soft: #ffe5ec;
+  --cream: #fff9f2;
+  --ink: #4a3f3a;
+  --accent: #ff6b9d;
+  --mint: #b8e8d5;
+  --sky: #bde0fe;
+}
+body {
+  font-family: "Hiragino Maru Gothic ProN", "Hiragino Sans", system-ui, sans-serif;
+  margin: 0 auto;
+  max-width: 720px;
+  padding: 24px 16px 64px;
+  line-height: 1.9;
+  background: var(--cream);
+  color: var(--ink);
+}
+header {
+  background: linear-gradient(135deg, var(--pink-soft), #fff);
+  border: 3px solid var(--pink);
+  border-radius: 24px;
+  padding: 20px 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 0 var(--pink);
+}
+header .name { font-size: 1.7em; font-weight: 800; color: #d6336c; }
+header .tag { opacity: .85; font-size: .95em; }
+nav { margin-bottom: 20px; }
+nav a {
+  display: inline-block;
+  background: #fff;
+  border: 2px solid var(--pink);
+  border-radius: 999px;
+  padding: 2px 14px;
+  margin: 0 8px 8px 0;
+  text-decoration: none;
+  font-weight: 700;
+  box-shadow: 0 2px 0 var(--pink);
+}
+a { color: #d6336c; }
+h2 { color: #d6336c; border-bottom: 3px dotted var(--pink); padding-bottom: 4px; }
+.card {
+  background: #fff;
+  border: 2px solid var(--pink-soft);
+  border-radius: 18px;
+  padding: 14px 18px;
+  margin: 14px 0;
+  box-shadow: 0 3px 0 var(--pink-soft);
+}
 .stats { display: flex; gap: 12px; flex-wrap: wrap; }
-.stat { flex: 1 1 120px; text-align: center; border: 1px solid rgba(128,128,128,.35); border-radius: 10px; padding: 10px; }
-.stat b { display: block; font-size: 1.5em; }
-footer { margin-top: 48px; opacity: .7; font-size: .9em; }
+.stat {
+  flex: 1 1 120px;
+  text-align: center;
+  background: #fff;
+  border: 2px solid var(--sky);
+  border-radius: 18px;
+  padding: 10px;
+  box-shadow: 0 3px 0 var(--sky);
+}
+.stat b { display: block; font-size: 1.5em; color: #d6336c; }
+.aruaru {
+  background: var(--pink-soft);
+  border-radius: 18px;
+  padding: 6px 20px;
+  margin: 14px 0;
+}
+footer { margin-top: 48px; opacity: .7; font-size: .9em; text-align: center; }
